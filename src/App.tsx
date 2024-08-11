@@ -1,11 +1,12 @@
 import "./App.css";
+import corner from "./CORNER.png";
 
 function App() {
   return (
     <>
       <div className="main">
         <div className="form_box">
-          <img src="../public/img/CORNER.png" alt="" />
+          <img src={corner} alt="BigCo Inc. logo" />
           <div className="form_head">
             <h1>Wecome Back!</h1>
             <p>Login to continue</p>
